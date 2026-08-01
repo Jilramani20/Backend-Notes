@@ -4,6 +4,10 @@ Welcome to the **Backend from First Principles** documentation repository!
 
 This repository contains a comprehensive collection of notes, code snippets, and explanations covering fundamental and advanced concepts in backend engineering. The goal of this series is to break down complex backend topics into understandable, foundational principles.
 
+## 🚀 Live Link (for notes) : 
+
+🔗 Live Website: https://jilramani20.github.io/Backend-Notes/
+
 ## 📚 Table of Contents
 
 The documentation is organized into the following topics:
