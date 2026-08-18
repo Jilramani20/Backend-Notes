@@ -2232,10 +2232,10 @@ ph = PasswordHasher(time_cost=<span class="num">1</span>, memory_cost=<span clas
                 <li>Disable TLS 1.0 and TLS 1.1 — they have known vulnerabilities (POODLE, BEAST). Only allow TLS 1.2
                     and TLS 1.3.</li>
                 <li>Test your TLS config at <a href="https://www.ssllabs.com/ssltest/"
-                        target="_blank">ssllabs.com/ssltest</a> — aim for an A+ rating.</li>
+                        target="_blank" rel="noopener noreferrer">ssllabs.com/ssltest</a> — aim for an A+ rating.</li>
             </ul>
 
-            <pre><span class="lang-label">Caddy — Automatic HTTPS (zero config)</span><span class="cmt"># Caddyfile — Caddy automatically obtains and renews Let's Encrypt certs</span>
+            <pre><span class="lang-label">Caddy — Automatic HTTPS (zero config)</span><span class="cmt"># Caddyfile — Caddy automatically obtains and renews Let's Encrypt certs</span> rel="noopener noreferrer"
 yourapp.com {
     reverse_proxy localhost:8080
     <span class="cmt"># TLS 1.2+ enforced, HSTS set, HTTP redirected — all automatic</span>
@@ -2517,51 +2517,51 @@ jobs:
                 <h2>References &amp; Further Reading</h2>
             </div>
             <div class="ref-links">
-                <a class="ref-link" href="https://portswigger.net/web-security" target="_blank">🧪 PortSwigger Web
+                <a class="ref-link" href="https://portswigger.net/web-security" target="_blank" rel="noopener noreferrer">🧪 PortSwigger Web
                     Security Academy</a>
-                <a class="ref-link" href="https://owasp.org/www-project-top-ten/" target="_blank">📋 OWASP Top 10</a>
-                <a class="ref-link" href="https://cheatsheetseries.owasp.org/" target="_blank">📋 OWASP Cheat Sheet
+                <a class="ref-link" href="https://owasp.org/www-project-top-ten/" target="_blank" rel="noopener noreferrer">📋 OWASP Top 10</a>
+                <a class="ref-link" href="https://cheatsheetseries.owasp.org/" target="_blank" rel="noopener noreferrer">📋 OWASP Cheat Sheet
                     Series</a>
                 <a class="ref-link"
                     href="https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html"
-                    target="_blank">🔒 OWASP Authentication Cheat Sheet</a>
+                    target="_blank" rel="noopener noreferrer">🔒 OWASP Authentication Cheat Sheet</a>
                 <a class="ref-link"
                     href="https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html"
-                    target="_blank">🔒 OWASP Session Management</a>
+                    target="_blank" rel="noopener noreferrer">🔒 OWASP Session Management</a>
                 <a class="ref-link"
                     href="https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html"
-                    target="_blank">🔒 OWASP SQL Injection Prevention</a>
-                <a class="ref-link" href="https://lucia-auth.com/" target="_blank">📖 Lucia Auth (secure auth
+                    target="_blank" rel="noopener noreferrer">🔒 OWASP SQL Injection Prevention</a>
+                <a class="ref-link" href="https://lucia-auth.com/" target="_blank" rel="noopener noreferrer">📖 Lucia Auth (secure auth
                     patterns)</a>
-                <a class="ref-link" href="https://jwt.io/" target="_blank">🔑 jwt.io (JWT debugger)</a>
-                <a class="ref-link" href="https://github.com/gitleaks/gitleaks" target="_blank">🛡️ Gitleaks (secret
+                <a class="ref-link" href="https://jwt.io/" target="_blank" rel="noopener noreferrer">🔑 jwt.io (JWT debugger)</a>
+                <a class="ref-link" href="https://github.com/gitleaks/gitleaks" target="_blank" rel="noopener noreferrer">🛡️ Gitleaks (secret
                     scanner)</a>
-                <a class="ref-link" href="https://pkg.go.dev/golang.org/x/crypto/argon2" target="_blank">🐹 Go argon2
+                <a class="ref-link" href="https://pkg.go.dev/golang.org/x/crypto/argon2" target="_blank" rel="noopener noreferrer">🐹 Go argon2
                     package</a>
-                <a class="ref-link" href="https://pypi.org/project/argon2-cffi/" target="_blank">🐍 Python
+                <a class="ref-link" href="https://pypi.org/project/argon2-cffi/" target="_blank" rel="noopener noreferrer">🐍 Python
                     argon2-cffi</a>
-                <a class="ref-link" href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP" target="_blank">📖 MDN
+                <a class="ref-link" href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP" target="_blank" rel="noopener noreferrer">📖 MDN
                     — Content Security Policy</a>
-                <a class="ref-link" href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies" target="_blank">📖
+                <a class="ref-link" href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies" target="_blank" rel="noopener noreferrer">📖
                     MDN — HTTP Cookies</a>
-                <a class="ref-link" href="https://oauth.net/2/" target="_blank">🔑 OAuth 2.0 Spec</a>
-                <a class="ref-link" href="https://openid.net/developers/how-connect-works/" target="_blank">🔑 OIDC
+                <a class="ref-link" href="https://oauth.net/2/" target="_blank" rel="noopener noreferrer">🔑 OAuth 2.0 Spec</a>
+                <a class="ref-link" href="https://openid.net/developers/how-connect-works/" target="_blank" rel="noopener noreferrer">🔑 OIDC
                     Overview</a>
-                <a class="ref-link" href="https://pkg.go.dev/github.com/coreos/go-oidc/v3/oidc" target="_blank">🐹 Go
+                <a class="ref-link" href="https://pkg.go.dev/github.com/coreos/go-oidc/v3/oidc" target="_blank" rel="noopener noreferrer">🐹 Go
                     OIDC Library</a>
-                <a class="ref-link" href="https://www.ssllabs.com/ssltest/" target="_blank">🔒 SSL Labs TLS Tester</a>
-                <a class="ref-link" href="https://caddyserver.com/docs/automatic-https" target="_blank">⚙️ Caddy
+                <a class="ref-link" href="https://www.ssllabs.com/ssltest/" target="_blank" rel="noopener noreferrer">🔒 SSL Labs TLS Tester</a>
+                <a class="ref-link" href="https://caddyserver.com/docs/automatic-https" target="_blank" rel="noopener noreferrer">⚙️ Caddy
                     Automatic HTTPS</a>
-                <a class="ref-link" href="https://portswigger.net/burp/communitydownload" target="_blank">🧪 Burp Suite
+                <a class="ref-link" href="https://portswigger.net/burp/communitydownload" target="_blank" rel="noopener noreferrer">🧪 Burp Suite
                     Community</a>
-                <a class="ref-link" href="https://github.com/securego/gosec" target="_blank">🛡️ gosec (Go static
+                <a class="ref-link" href="https://github.com/securego/gosec" target="_blank" rel="noopener noreferrer">🛡️ gosec (Go static
                     analysis)</a>
-                <a class="ref-link" href="https://www.cvedetails.com/cve/CVE-2017-5638/" target="_blank">📋
+                <a class="ref-link" href="https://www.cvedetails.com/cve/CVE-2017-5638/" target="_blank" rel="noopener noreferrer">📋
                     CVE-2017-5638 (Equifax)</a>
-                <a class="ref-link" href="https://www.uber.com/newsroom/security-update/" target="_blank">📋 Uber 2022
+                <a class="ref-link" href="https://www.uber.com/newsroom/security-update/" target="_blank" rel="noopener noreferrer">📋 Uber 2022
                     Breach Report</a>
                 <a class="ref-link" href="https://blog.lastpass.com/2022/12/notice-of-recent-security-incident/"
-                    target="_blank">📋 LastPass Breach Notice</a>
+                    target="_blank" rel="noopener noreferrer">📋 LastPass Breach Notice</a>
             </div>
         </section>
 
